@@ -1,0 +1,37 @@
+body, p, ul, h1, h2, h3 {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+    background-color: azure;
+}
+
+.site-nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+}
+
+.main-nav-link {
+    background-color: aquamarine;
+    padding: 10px;
+    display: block;
+}
+
+.article {
+    background-color: burlywood;
+    flex-grow: 1;
+}
+
+.aside-bar {
+    background-color: aliceblue;
+    flex: 0 0 200px;
+}
+
+.main-content {
+    display: flex;
+    gap: 40px;
+}
